@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    color: rgb(35, 7, 77);
+    box-shadow: rgba(49, 49, 49, 0.5) 10px 5px 10px;
+}
+
+.Image-wrap{
+    display: flex;
+    overflow: hidden;
+
+}
+
+.Card h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.Card img {
+    padding-bottom: 15px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    scale: 1.8;
+}
+
+.CardList {
+    display: flex;
+}

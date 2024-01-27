@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Banner {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgba(19, 19, 19, 0.9);
+}
+
+.BannerContent {
+    position: relative;
+    top: 50%;
+}
+

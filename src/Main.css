@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    background-image: url(./Assets/hubs-maps-scaled.jpeg);
+    background-color: rgba(0,0,0,0.9);
+    background-attachment: fixed;
+    background-position: center;
+}
+
