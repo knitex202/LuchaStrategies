@@ -1,9 +1,11 @@
 import './Main.css';
 import Navigation from "./main-components/Navigation";
 import Banner from "./main-components/Banner";
-import Content from "./main-components/Content";
+import Content from './main-components/Content';
+import Content2 from "./main-components/Content2";
 import Footer from "./main-components/Footer";
 import CardList from './main-components/CardList';
+import { contentPara } from './verbiage/paragraphs';
 
 let loginText;
 let userNm;
@@ -17,8 +19,8 @@ function Main(){
         <div className='Main'>
             <Navigation className="navigation" loginText={loginText} logState={userNm}/>
             <Banner BannerHeading="Great Change Starts With, You!" BannerText="We are a Firm that helps empower and elect Democrats to make great change"/>
-            <Content/>
-            <Content className="content" content={<CardList/>} Heading="Meet the Team"/>
+             <Content image="\Texas-voters.png" Heading="This is a Heading" text={contentPara}/> 
+            <Content2 className="content" content={<CardList/>} Heading="Meet the Team"/>
             
                 
             

@@ -18,4 +18,4 @@ export const userList = [user1, user2,user3 ]
 
 
 
-export * from './datatest.js';
+export default userList;

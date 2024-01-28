@@ -1,4 +1,4 @@
-import {userList} from '/Users/michellecedeno/firstapp/src/datatest.js'
+import userList from '../datatest.js';
 import Card from './Card.js'
 import './CardList.css'
 
