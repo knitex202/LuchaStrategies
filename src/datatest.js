@@ -12,9 +12,10 @@ class Employee {
 const user1 = new Employee('/michelle-profile-pic.png','Michelle','Cedeno','Co-Founder','Georgetown, TX')
 const user2 = new Employee('/laura-pic.png','Laura','Gonzales','Co-Founder','Georgetown, TX')
 const user3 = new Employee('/laura-pic.png','Timmy','Turner','Co-Founder','Georgetown, TX')
+const user4 = new Employee('/laura-pic.png','Walter','Resendiz','Mono','Georgetown, TX')
 
 
-export const userList = [user1, user2,user3 ]
+export const userList = [user1, user2 ]
 
 
 

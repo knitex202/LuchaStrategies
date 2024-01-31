@@ -12,3 +12,23 @@
     background-position: center;
 }
 
+.what_we_do_area {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+    
+}
+
+.what_we_do_area div {
+    display: flex;
+}
+
+.what_we_do_content{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 250px;
+    background-color: white;
+}
+
